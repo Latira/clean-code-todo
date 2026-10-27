@@ -97,6 +97,9 @@ const deleteTask = function () {
   ul.removeChild(listItem);
 };
 
+// Duplication of functions is minor and acceptable.
+// Keeping handlers separate preserves explicit semantic intent for task state toggling.
+
 //Mark task completed
 const taskCompleted = function () {
   //Append the task list item to the #completed-tasks
