@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Latira/clean-code-todo#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "eslint": "^10.13.0",
     "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
